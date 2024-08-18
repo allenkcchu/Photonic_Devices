@@ -19,8 +19,8 @@ from gdsfactory.pdk import get_active_pdk
 from AIMPhotonics_ACT1.tech import LAYER, SEstrip, M1AMXS, M2AMXS
 import AIMPhotonics_ACT1 as AIM
 
-from M321_Orion.components.EulerRing import EulerRing
-from M321_Orion.components.BusTaper import BusTaper
+from Photonic_Devices.components.EulerRing import EulerRing
+from Photonic_Devices.components.BusTaper import BusTaper
 
 @gf.cell
 def EulerCROW(order = 2, radius = 4, Lc = 0, gap1 = 0.15, gap2 = 0.15, bus_width = 0.4, ring_width = 0.5, 
