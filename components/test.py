@@ -6,7 +6,7 @@ gf.clear_cache()
 def test():
     c = gf.Component()
     # c << gf.components.straight(width=0.1)
-    c << ubcpdk.components.gc_te1550()
+    c << ubcpdk.components.ring_double()
 
     return c
 
